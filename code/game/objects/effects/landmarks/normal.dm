@@ -25,6 +25,27 @@
 			latejoin += loc
 			delete_me = TRUE
 			return
+
+		else if ("german_supplydrop_spot")
+			german_supplydrop_spots += loc
+			qdel(src)
+			return
+
+		else if ("soviet_supplydrop_spot")
+			soviet_supplydrop_spots += loc
+			qdel(src)
+			return
+
+		else if ("japan_supplydrop_spot")
+			japan_supplydrop_spots += loc
+			qdel(src)
+			return
+
+		else if ("american_supplydrop_spot")
+			american_supplydrop_spots += loc
+			qdel(src)
+			return
+
 		else if ("Paradrop")
 			paradrop_landmarks += loc
 			if (!latejoin_turfs[name])

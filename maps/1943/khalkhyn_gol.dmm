@@ -27,9 +27,9 @@
 "aA" = (/obj/covers/wood,/obj/structure/filingcabinet/chestdrawer,/turf/floor/dirt,/area/caribbean/russian/land/inside/command)
 "aB" = (/obj/covers/wood,/obj/structure/filingcabinet/filingcabinet,/turf/floor/dirt,/area/caribbean/russian/land/inside/command)
 "aC" = (/obj/covers/wood,/obj/structure/table/wood,/turf/floor/dirt,/area/caribbean/russian/land/inside)
-"aD" = (/obj/covers/wood,/obj/structure/table/wood,/obj/structure/lamp/lamp_big/alwayson{icon_state = "tube"; dir = 1},/obj/item/weapon/radio/faction2,/turf/floor/dirt,/area/caribbean/russian/land/inside/command)
+"aD" = (/obj/covers/wood,/obj/structure/table/wood,/obj/structure/lamp/lamp_big/alwayson{icon_state = "tube"; dir = 1},/obj/item/radio/intercom/a7b,/turf/floor/dirt,/area/caribbean/russian/land/inside/command)
 "aE" = (/obj/covers/wood,/obj/structure/table/wood,/obj/item/weapon/pen,/obj/item/weapon/paper,/turf/floor/dirt,/area/caribbean/russian/land/inside/command)
-"aF" = (/obj/covers/wood,/obj/structure/table/wood,/obj/structure/lamp/lamp_big/alwayson{icon_state = "tube"; dir = 1},/turf/floor/dirt,/area/caribbean/russian/land/inside/command)
+"aF" = (/obj/covers/wood,/obj/structure/table/wood,/obj/structure/lamp/lamp_big/alwayson{icon_state = "tube"; dir = 1},/obj/item/radio/rbs,/obj/item/radio/rbs,/turf/floor/dirt,/area/caribbean/russian/land/inside/command)
 "aG" = (/obj/covers/wood,/obj/structure/table/wood,/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka,/turf/floor/dirt,/area/caribbean/russian/land/inside)
 "aH" = (/obj/covers/wood,/obj/structure/bed/bedroll,/obj/effect/landmark{icon_state = "x1"; name = "JoinLateRU"},/turf/floor/dirt,/area/caribbean/russian/land/inside)
 "aI" = (/obj/covers/wood,/obj/structure/pot,/obj/structure/lamp/lamp_big/alwayson{icon_state = "tube"; dir = 1},/turf/floor/dirt,/area/caribbean/russian/land/inside)
@@ -289,7 +289,7 @@
 "fC" = (/obj/structure/bed/chair/wood{icon_state = "wooden_chair"; dir = 4},/obj/effect/landmark{icon_state = "x3"; name = "JoinLateJP"},/turf/floor/dirt,/area/caribbean/japanese/land/inside)
 "fD" = (/obj/structure/bed/chair/wood{icon_state = "wooden_chair"; dir = 8},/obj/effect/landmark{icon_state = "x3"; name = "JoinLateJP"},/turf/floor/dirt,/area/caribbean/japanese/land/inside)
 "fE" = (/obj/structure/mine_support,/obj/structure/lamp/lamp_small/alwayson/red{icon_state = "bulb"; dir = 4},/turf/floor/dirt,/area/caribbean/japanese/land/inside)
-"fF" = (/obj/structure/table/wood,/obj/item/weapon/radio/faction1{name = "japanese radio"},/turf/floor/dirt,/area/caribbean/japanese/land/inside/command)
+"fF" = (/obj/structure/table/wood,/obj/item/radio/type94,/obj/item/radio/type94,/turf/floor/dirt,/area/caribbean/japanese/land/inside/command)
 "fG" = (/obj/structure/table/wood,/obj/item/weapon/paper_bin,/turf/floor/dirt,/area/caribbean/japanese/land/inside/command)
 "fH" = (/obj/structure/bed/chair/wood{icon_state = "wooden_chair"; dir = 8},/obj/effect/landmark{icon_state = "x3"; name = "JoinLateJPCap"},/turf/floor/dirt,/area/caribbean/japanese/land/inside/command)
 "fI" = (/obj/structure/bed/chair/wood{icon_state = "wooden_chair"; dir = 1},/obj/effect/landmark{icon_state = "x3"; name = "JoinLateJPCap"},/turf/floor/dirt,/area/caribbean/japanese/land/inside/command)
@@ -440,12 +440,14 @@
 "ix" = (/obj/structure/vehicleparts/frame/t34/left,/obj/structure/bed/chair/gunner{icon_state = "officechair_white"; dir = 8},/turf/floor/grass,/area/caribbean/russian/land/outside)
 "iy" = (/obj/structure/vehicleparts/frame/t34/rf,/obj/structure/bed/chair/gunner,/obj/structure/vehicleparts/movement/tracks,/obj/item/ammo_magazine/maxim,/obj/item/ammo_magazine/maxim,/obj/item/weapon/gun/projectile/automatic/stationary/modern/maxim/ww2,/turf/floor/grass,/area/caribbean/russian/land/outside)
 "iz" = (/obj/structure/wild/junglebush,/turf/floor/grass,/area/caribbean/russian/land/outside)
+"iA" = (/obj/structure/table/wood,/obj/item/radio/intercom/type96,/turf/floor/dirt,/area/caribbean/japanese/land/inside/command)
 "iB" = (/obj/structure/vehicleparts/frame/t34/lf,/obj/structure/bed/chair/drivers/tank,/obj/structure/vehicleparts/movement/tracks,/turf/floor/grass,/area/caribbean/russian/land/outside)
+"iC" = (/obj/effect/landmark{name = "japan_supplydrop_spot"},/turf/floor/dirt,/area/caribbean/japanese/land/inside/command)
 "iS" = (/obj/item/weapon/plastique/russian,/obj/item/weapon/plastique/russian,/turf/floor/dirt,/area/caribbean/japanese/land/inside)
 
 (1,1,1) = {"
 acacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabYbYbYacaaaaaaakakakakababababababahababakauauawauauauauauauawauauauauakakabababababababababababababababakeuakakaaaaaaaaaa
-adaaaeaaaaaebJaaaaaaaaaaaaaaaaaaaaaaaaacaaaabJaaaeaaaaaaaaaabYbYaaaaaaaeakakakakabaoapaqaraxaqasabakauazayaAaBbnaFaEbRaBbRaEaDauakakabaIaqaqaqaqbGabbOaGaqaHaqbZabakakakaMaaaaaaacac
+adaaaeaaaaaebJaaaaaaaaaaaaaaaaaaaaaaaaacaaaabJaaaeaaaaaaaaaabYbYaaaaaaaeakakakakabaoapaqaraxaqasabakauazayaAaBbnaDaEbRaBbRaEaFauakakabaIaqaqaqaqbGabbOaGaqaHaqbZabakakakaMaaaaaaacac
 acaabJaaacacaaaaaaagaaaaacaaaaaebJaaaaaaaaaaaaaaaaaabJagacacbYbYbYacacaaakakakakaJaCapaqaraqaqaLabaMauayayayaybnaycgbwaydVcgayauaMakahaCbSaCbTaqaqahaqaqaqaqaqaqahakakakakacaaaeaaaa
 aaaaaaaaaaaaaaaaaaaaaabJacacaaaaaaaaaaaaaaagaaaaaaaaaaacacaaacbYcabJaaadakakakakdsduapaqaraqaqaCabaMauayayayaydWayayayayayayayauakakabdPaqaqaqaqaqdQaqaqaqaHaqaHdRakakakakaaaabJaaaa
 aaaaaaaeaabJaaagaaaaaaaaaaaeaaaaaaaeacbJaeaaaaaaaaaaaaaaaaaaacbYbYaaaaaaakakakakabdSaqaqararararabakauaycfecaybnayayayayayayaBauakakabdPaqaqdUdUdUahdXaqaqaqaqaqdRijakakaMaaaaaaaaaa
@@ -632,12 +634,12 @@ fsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfs
 fsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfscFcFfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfscFcFfsfsfsfs
 fsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsdhdidjdhfvdkdkfvfsdidhdidjfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfscFfsfsfsfsfs
 fsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsdmdmdmdmdmfKdmdmfKdmdmdmdmdmdmfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfscFfsfsfsfsfs
-fsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfxfsdmdmdmdmdmdmdmdmdmdmdmdmdmdpdmdpfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfscFfsfsfsfsfs
+fsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfxfsdmdmiCdmdmdmdmdmdmdmdmdmdmdpdmdpfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfscFfsfsfsfsfs
 fsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfscJdmdmdmdmdmdqfFdrfGdrdmdmdmdmdmdmfQfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfscifsfsfsfsfs
 fsfshzhAhBhChAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAfsfsfsfsfsfsfsfvfSfHdmdmdmdmdtdmfIdmdvdmdmdmdpdmcIfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfscFfsfsfsfsfs
 fsfshDhAhEhFhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAfsfsfsfsfsfsfsfsdrdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmfsfsfsfsfsfsfsfsfsfsfsdwehhsdydzdzdzdAfsfsfvdkfBfsfsfsfs
 fXfsiphAhGhHhAhAhAhAhAhAhAhAhAhAhAhAhAhIhIhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAfsfsfsfsfsfsfsfsfsdmdmdmdmfJdmdmdmdmdmfJdmdmdmdmfsfsfsfsfsfsfsfsfsdKcFdwcFcFcFcFcFcFcFcFcFehcFcFfsfsfsfs
-fsfshAhAhJhKhAhIhIhAhAhAhAhAhAhAhAhAhLhMhNhOhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAfsfsfsfsfsfsfsfsfsdDdmdjfGhtihdrdmdjfGhtdrdrdmfsfsfsfsfsfsfsfsfshucFcFdwcFdGdGdGdGcFcFcFcFcFcFcFftfsfsfs
+fsfshAhAhJhKhAhIhIhAhAhAhAhAhAhAhAhAhLhMhNhOhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAfsfsfsfsfsfsfsfsfsdDdmdjfGhtihiAdmdjfGhtdrdrdmfsfsfsfsfsfsfsfsfshucFcFdwcFdGdGdGdGcFcFcFcFcFcFcFftfsfsfs
 fsfshAhAhPhQhAhNhRhShAhAhAhAhAhAhAhAhLhShOhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfvfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfLcFcFdwcFcFcFcFcFcFcFcFcFcrcrcrcFfsfsfs
 fsfshThAhAhAhAhAhUhShAhAhAhAhAhAhAhAhLhVhAhOhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfLcFcFdwcFdHcFdHcFdHcFcFcndIcsdJcDfsfsfs
 fsfshAhAhAhAhAhWhXhShAhAhAhAhAhAhAhAhLhShOhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAhAfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfsfshucFcFdwcFcFfNcFfNcFfNcFcncDcFcnhvfsfsfs

@@ -222,6 +222,9 @@ var/list/recently_died = list()
 		if (istype(src, /mob/living/human/corpse))
 			return
 
+		if (istype(original_job, /datum/job/german/trainsystem))
+			return
+
 		if (recently_died.Find(getRoundUID()))
 			return
 

@@ -1,6 +1,13 @@
 /datum/job/german
 	faction = "Human"
 
+/datum/job/german/trainsystem
+	title = "N/A" // makes us unchooseable
+	en_meaning = "N/A"
+	is_officer = FALSE
+	is_commander = FALSE
+	faction = "trainsystem"
+
 /datum/job/german/give_random_name(var/mob/living/human/H)
 	H.name = H.species.get_random_german_name(H.gender)
 	H.real_name = H.name

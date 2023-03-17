@@ -25,6 +25,8 @@
 			if (!M.client || M.client.mob != M)
 				qdel(M)
 			continue
+		else if (istype(M.original_job, /datum/job/german/trainsystem))
+			continue
 
 		try
 			// since we spent so long getting here we have to do this again

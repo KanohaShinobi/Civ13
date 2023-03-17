@@ -5,6 +5,10 @@
 	for (var/C in clients)
 		winset(C, null, "mainwindow.flash=1")
 
+	processes.supply.codes[GERMAN] = rand(1000,9999)
+	processes.supply.codes[RUSSIAN] = rand(1000,9999)
+	processes.supply.codes[JAPANESE] = rand(1000,9999)
+	processes.supply.codes[AMERICAN] = rand(1000,9999)
 	// announce after some other stuff, like system setups, are announced
 	spawn (3)
 
@@ -31,7 +35,7 @@
 			for (var/obj/effect/step_trigger/goal/red/GR in world)
 				GR.assign()
 			for (var/obj/effect/step_trigger/goal/blue/GB in world)
-				GB.assign()	
+				GB.assign()
 		// let new players see the join link
 		for (var/np in new_player_mob_list)
 			if (np:client)

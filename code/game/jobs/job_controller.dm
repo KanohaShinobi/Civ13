@@ -544,6 +544,20 @@ var/global/datum/controller/occupations/job_master
 				spawn_location = "JoinLatePOL"
 		H.job_spawn_location = spawn_location
 
+		if (H.original_job.is_officer)
+			if (H.original_job.base_type_flag() == GERMAN)
+		//		H << "The passcode for radios and phones is <b>[supply_codes[GERMAN]].</b>"
+				H.add_memory("The passcode for radios and phones is [processes.supply.codes[GERMAN]].")
+
+			else if (H.original_job.base_type_flag() == RUSSIAN)
+		//		H << "The passcode for radios and phones is <b>[supply_codes[SOVIET]].</b>"
+				H.add_memory("The passcode for radios and phones is [processes.supply.codes[RUSSIAN]].")
+			else if (H.original_job.base_type_flag() == JAPANESE)
+		//		H << "The passcode for radios and phones is <b>[supply_codes[SOVIET]].</b>"
+				H.add_memory("The passcode for radios and phones is [processes.supply.codes[JAPANESE]].")
+			else if (H.original_job.base_type_flag() == AMERICAN)
+		//		H << "The passcode for radios and phones is <b>[supply_codes[SOVIET]].</b>"
+				H.add_memory("The passcode for radios and phones is [processes.supply.codes[AMERICAN]].")
 		if (H.mind)
 			H.mind.assigned_role = rank
 

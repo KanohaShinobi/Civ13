@@ -386,6 +386,9 @@
 /obj/item/stack/material/steel/twentyfive
 	amount = 25
 
+/obj/item/stack/material/steel/fivehundred
+	amount = 500
+
 /obj/item/stack/material/wood
 	name = "wooden plank"
 	icon_state = "sheet-wood"
@@ -398,6 +401,9 @@
 
 /obj/item/stack/material/wood/twentyfive
 	amount = 25
+
+/obj/item/stack/material/wood/fifty
+	amount = 50
 
 /obj/item/stack/material/wood/proc/start_fire()
 	var/burn_time = amount * 1

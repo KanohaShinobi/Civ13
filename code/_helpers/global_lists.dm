@@ -61,6 +61,16 @@ var/global/list/zoom_scopes_list = list()
 
 var/global/list/zoom_processing_mobs = list()
 
+var/global/list/supplydrop_processing_objects_german = list()
+var/global/list/supplydrop_processing_objects_soviet = list()
+var/global/list/supplydrop_processing_objects_japan = list()
+var/global/list/supplydrop_processing_objects_american = list()
+
+var/global/list/german_supplydrop_spots = list()
+var/global/list/soviet_supplydrop_spots = list()
+var/global/list/japan_supplydrop_spots = list()
+var/global/list/american_supplydrop_spots = list()
+
 var/global/list/faction_hud_users = list()
 
 var/global/list/hud_icon_reference = list()
@@ -87,6 +97,7 @@ var/global/list/language_keys[0]					// Table of say codes for all languages
 var/global/list/whitelisted_species = list("Human") // Species that require a whitelist check.
 var/global/list/playable_species = list("Human")	// A list of ALL playable species, whitelisted, latejoin or otherwise.
 
+var/global/list/main_radios = list()
 //Preferences stuff
 	//Bodybuilds
 var/global/list/male_body_builds = list()

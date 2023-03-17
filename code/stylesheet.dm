@@ -58,6 +58,11 @@ a, a:link, a:visited, :active, a:hover
 .SSradio				{color: #466194;}
 .redradio				{color: #B53232;}
 .brownradio				{color: #7E6A46;}
+.jpsupply				{color: #B55D10;}
+.jpcomm					{color: #912E1F;}
+.uscomm					{color: #37402D;}
+.ussupply				{color: #34478A;}
+
 
 /* Miscellaneous */
 .name					{font-weight: bold;}

@@ -113,7 +113,7 @@
 			if (config.tts_on && ishuman(src) && client.is_preference_enabled(/datum/client_preference/play_chat_tts))
 				play_tts(message2,speaker)
 
-/mob/proc/hear_radio(var/message, var/datum/language/language=null, var/mob/speaker = null, var/obj/destination=null, var/obj/origin=null)
+/mob/proc/hear_radio(var/message, var/obj/item/radio/source, var/datum/language/language=null, var/mob/speaker = null, var/obj/destination=null, var/obj/origin=null)
 
 	if (!client || !message)
 		return
@@ -167,6 +167,13 @@
 	else
 		var/fontsize = 2
 		var/full_message = ""
+		if (speaker.original_job.is_officer || istype(speaker.original_job, /datum/job/german/trainsystem))
+			fontsize = 3
+
+		if (track)
+			full_message = "<font size = [fontsize]><b><span class = [source.span_class()]>[source.bracketed_name()] [speaker_name] ([track]) <span class = 'small_message'>([language.name])</span> [message]</span></font>"
+		on_hear_radio(source, full_message)
+
 		if (destination)
 			if (istype(destination, /obj/structure/radio))
 				var/obj/structure/radio/RD = destination
@@ -187,6 +194,12 @@
 
 
 		on_hear_obj(destination, full_message)
+
+/mob/proc/on_hear_radio(var/obj/item/radio/source, var/fullmessage)
+	src << "\icon[getFlatIcon(source)] [fullmessage]"
+
+/mob/observer/ghost/on_hear_radio(var/obj/item/radio/source, var/fullmessage)
+	src << "\icon[getFlatIcon(source)] [fullmessage]"
 
 /mob/proc/hear_phone(var/message, var/datum/language/language=null, var/mob/speaker = null, var/obj/item/weapon/telephone/origin, var/obj/item/weapon/telephone/destination)
 

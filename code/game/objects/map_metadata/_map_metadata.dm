@@ -23,7 +23,12 @@ var/civmax_research = list(230,230,230)
 	var/availablefactions_run = FALSE
 	var/list/availablefactions = list("Red Goose Tribesman")
 	var/override_global_recipes = "global"
-	
+
+	var/list/supply_points_per_tick = list(
+		GERMAN = 1.00,
+		RUSSIAN = 1.00,
+		JAPANESE = 1.00,
+		AMERICAN = 1.00)
 	var/victory_time = 36000
 	var/grace_wall_timer = 0
 //faction stuff
